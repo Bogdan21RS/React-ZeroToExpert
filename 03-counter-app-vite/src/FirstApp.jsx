@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export default function FirstApp({ title, subtitle }) {
+export default function FirstApp({ title, subtitle = "subtitulo" }) {
   return (
     <>
       <h1>{title}</h1>
